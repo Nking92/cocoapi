@@ -1,3 +1,5 @@
+#!python
+#cython: language_level=3
 # distutils: language = c
 # distutils: sources = ../common/maskApi.c
 
