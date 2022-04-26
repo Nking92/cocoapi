@@ -13,6 +13,9 @@ ext_modules = [
     )
 ]
 
+for e in ext_modules:
+    e.cython_directives = {'language_level': "3"}
+
 setup(
     name='pycocotools',
     packages=['pycocotools'],
